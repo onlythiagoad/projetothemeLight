@@ -133,6 +133,31 @@ input{
     height: 30px !important; 
    
 }
+.buttonSociais{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+   
+}
+.buttonGoogle,.buttonFace{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid black ;
+}
+.buttonGoogle:hover, .buttonFace:hover{
+    background-color: #222;
+    transition: .5s;
+    color: #e0e0e0;
+}
+.logoGoogle, .logoFace{
+    font-size: 16px;
+}
 /* ---------- WHITE THEME -------------- */
 .mode{
     animation: animate .2s linear forwards;

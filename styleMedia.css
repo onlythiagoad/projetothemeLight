@@ -14,4 +14,7 @@
     .submit,.remember{
         width: 145px;
     }
+    .buttonGoogle,.buttonFace{
+        width: 100px;
+    }
 }
