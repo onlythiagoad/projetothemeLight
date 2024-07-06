@@ -22,6 +22,7 @@ body{
     margin-top: 10px;
     border-radius: 30px;
     border: 1px solid white;
+    background-color: white;
 
     align-self: flex-start;
     display: flex;
@@ -33,7 +34,8 @@ body{
 .button > .state{
     width: 20px;
     height: 20px;
-    border: 2px solid cyan;
+    border: 2px solid white;
+    background-color: black;
     border-radius: 50%;
     margin-left: 2px;
     position: relative;
@@ -144,12 +146,12 @@ input{
     transition: .5s;
 }
 .buttonWhite{
-    border: 1px solid black;
-    background-color: white;
+    border: 2px solid #444;
+    background-color: black;
 
 }
 .stateWhite{
-    background-color: #222;
+    background-color: #e0e0e0 !important;
     border-color: black !important;
     transition: .5s;
 
