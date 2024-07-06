@@ -2,13 +2,14 @@
 
 @media screen and (max-width: 780px){
     .box{
-        width: 400px;
+        width: 350px;
+        height: 500px;
     }
     .button{
         margin: auto;
         position: absolute;
         top: 10px;
-        left: 50%;
+        left: 335px;
         
     }
     .submit,.remember{
